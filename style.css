@@ -1,0 +1,1202 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    margin: -80px;
+    padding: -180px;
+    background-color: #f4f4f4;
+}
+
+.pdf {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+    padding: 70px;
+}
+
+.pdf .div {
+    background-color: #ffffff;
+    width: 938px;
+    display: flex;
+    height: 1660px;
+    position: relative;
+    margin-top: 250px;
+    padding-top: 60px;
+    
+}
+
+.pdf .overlap-group {
+    position: absolute;
+    width: 946px;
+    height: 327px;
+    top: 42px;
+    left: -6px;
+}
+
+.pdf .rectangle {
+    height: 272px;
+    top: 0;
+    background-color: #e6f3ff;
+    position: absolute;
+    width: 946px;
+    left: 0;
+}
+
+.pdf .rectangle-2 {
+    height: 56px;
+    top: 271px;
+    background-color: #212260;
+    position: absolute;
+    width: 946px;
+    left: 0;
+}
+
+.pdf .text-wrapper {
+    position: absolute;
+    width: 28px;
+    top: 18px;
+    left: 21px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-2 {
+    position: absolute;
+    width: 313px;
+    top: 128px;
+    left: 18px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .bank-reference {
+    top: 199px;
+    left: 21px;
+    color: #000000;
+    position: absolute;
+    width: 130px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-3 {
+    position: absolute;
+    width: 261px;
+    top: 288px;
+    left: 25px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .status-sent-to-bank {
+    position: absolute;
+    width: 130px;
+    top: 199px;
+    left: 373px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .value-date {
+    position: absolute;
+    width: 130px;
+    top: 199px;
+    left: 816px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .payment-amount {
+    position: absolute;
+    width: 227px;
+    top: 23px;
+    left: 681px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .payment-amount-2 {
+    position: absolute;
+    width: 223px;
+    top: 128px;
+    left: 660px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-4 {
+    position: absolute;
+    width: 417px;
+    top: 65px;
+    left: 21px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #2196f3;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.pdf .text-wrapper-5 {
+    width: 246px;
+    top: 65px;
+    left:713px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 22px;
+    position: absolute;
+
+}
+
+.pdf .text-wrapper-5 input {
+    top:0px;
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 80%;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+}
+
+
+
+.pdf .overlap {
+    position: absolute;
+    width: 946px;
+    height: 56px;
+    top: 480px;
+    left: -6px;
+    background-color: #212260;
+    
+}
+
+.pdf .text-wrapper-6 {
+    position: absolute;
+    width: 261px;
+    top: 17px;
+    left: 25px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .div-wrapper {
+    position: absolute;
+    width: 946px;
+    height: 56px;
+    top: 863px;
+    left: -6px;
+    background-color: #212260;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadows for layered sections */
+    border-radius: 4px;
+}
+
+.pdf .overlap-2 {
+    position: absolute;
+    width: 946px;
+    height: 56px;
+    top: 1194px;
+    left: -6px;
+    background-color: #212260;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadows for layered sections */
+    border-radius: 4px;
+}
+
+.pdf .overlap-3 {
+    position: absolute;
+    width: 946px;
+    height: 56px;
+    top: 1469px;
+    left: -6px;
+    background-color: #212260;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadows for layered sections */
+    border-radius: 4px;
+}
+
+.pdf .overlap-4 {
+    position: absolute;
+    width: 946px;
+    height: 39px;
+    top: 1652px;
+    left: -6px;
+    background-color: #c9e5ff;
+}
+
+.pdf .text-wrapper-7 {
+    position: absolute;
+    width: 164px;
+    top: 9px;
+    left: 21px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-8 {
+    position: absolute;
+    width: 130px;
+    top: 442px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-9 {
+    width: 130px;
+    top: 970px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-10 {
+    position: absolute;
+    width: 250px;
+    top: 1298px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-11 {
+    position: absolute;
+    width: 300px;
+    top: 1375px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-12 {
+    width: 164px;
+    top: 1566px;
+    left: 15px;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-13 {
+    width: 164px;
+    top: 1620px;
+    left: 15px;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-14 {
+    position: absolute;
+    width: 164px;
+    top: 1566px;
+    left: 210px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-15 {
+    position: absolute;
+    width: 164px;
+    top: 1620px;
+    left: 210px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .initiated {
+    position: absolute;
+    width: 164px;
+    top: 1566px;
+    left: 405px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #25aa19;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-16 {
+    position: absolute;
+    width: 164px;
+    top: 1620px;
+    left: 405px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #26aa1a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-17 {
+    width: 130px;
+    top: 1152px;
+    color: #000000;
+    position: absolute;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-18 {
+    position: absolute;
+    width: 130px;
+    top: 670px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-19 {
+    width: 66px;
+    top: 442px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-20 {
+    width: 66px;
+    top: 970px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-21 {
+    position: absolute;
+    width: 66px;
+    top: 1152px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-22 {
+    width: 80px;
+    top: 1062px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-23 {
+    position: absolute;
+    width: 174px;
+    top: 442px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-24 {
+    width: 174px;
+    top: 970px;
+    left: 729px;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-25 {
+    width: 174px;
+    top: 1152px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-26 {
+    width: 174px;
+    top: 1062px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-27 {
+    position: absolute;
+    width: 240px;
+    top: 442px;
+    left: 217px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-28 {
+    width: 240px;
+    top: 970px;
+    left: 217px;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-29 {
+    position: absolute;
+    width: 240px;
+    top: 1152px;
+    left: 217px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-30 {
+    position: absolute;
+    width: 240px;
+    top: 585px;
+    left: 255px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-31 {
+    position: absolute;
+    width: 123px;
+    top: 672px;
+    left: 255px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-32 {
+    position: absolute;
+    width: 148px;
+    top: 672px;
+    left: 495px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-33 {
+    position: absolute;
+    width: 148px;
+    top: 672px;
+    left: 753px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-34 {
+    position: absolute;
+    width: 148px;
+    top: 762px;
+    left: 753px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-35 {
+    top: 411px;
+    left: 15px;
+    position: absolute;
+    width: 130px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-36 {
+    top: 939px;
+    left: 15px;
+    position: absolute;
+    width: 130px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-37 {
+    position: absolute;
+    width: 173px;
+    top: 1267px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .p {
+    position: absolute;
+    width: 255px;
+    top: 1346px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .date-time {
+    width: 120px;
+    top: 1535px;
+    color: #a2a5a8;
+    position: absolute;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-38 {
+    position: absolute;
+    width: 120px;
+    top: 1535px;
+    left: 210px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-39 {
+    position: absolute;
+    width: 120px;
+    top: 1535px;
+    left: 407px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-40 {
+    position: absolute;
+    width: 255px;
+    top: 1431px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    
+}
+
+.pdf .text-wrapper-41 {
+    width: 130px;
+    top: 1121px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-42 {
+    position: absolute;
+    width: 160px;
+    top: 1031px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-43 {
+    position: absolute;
+    width: 130px;
+    top: 554px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-44 {
+    position: absolute;
+    width: 120px;
+    top: 639px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .sender-s {
+    width: 217px;
+    left: 15px;
+    position: absolute;
+    top: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-45 {
+    position: absolute;
+    width: 173px;
+    top: 821px;
+    left: 15px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-46 {
+    position: absolute;
+    width: 173px;
+    top: 821px;
+    left: 255px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .sender-s-2 {
+    width: 232px;
+    left: 255px;
+    position: absolute;
+    top: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-47 {
+    position: absolute;
+    width: 550px;
+    top: 554px;
+    left: 255px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-48 {
+    top: 641px;
+    left: 255px;
+    color: #a2a5a8;
+    position: absolute;
+    width: 230px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-49 {
+    top: 641px;
+    left: 495px;
+    color: #a2a5a8;
+    position: absolute;
+    width: 240px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-50 {
+    top: 641px;
+    left: 753px;
+    color: #a2a5a8;
+    position: absolute;
+    width: 130px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-51 {
+    position: absolute;
+    width: 160px;
+    top: 731px;
+    left: 753px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-52 {
+    position: absolute;
+    width: 130px;
+    top: 411px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-53 {
+    width: 150px;
+    top: 939px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-54 {
+    width: 150px;
+    left: 536px;
+    position: absolute;
+    top: 1121px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-55 {
+    position: absolute;
+    width: 130px;
+    top: 1031px;
+    left: 536px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-56 {
+    position: absolute;
+    width: 130px;
+    top: 411px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-57 {
+    width: 130px;
+    top: 939px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-58 {
+    position: absolute;
+    width: 209px;
+    top: 1121px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-59 {
+    position: absolute;
+    width: 130px;
+    top: 1031px;
+    left: 729px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-60 {
+    position: absolute;
+    width: 130px;
+    top: 411px;
+    left: 217px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-61 {
+    top: 939px;
+    left: 217px;
+    position: absolute;
+    width: 130px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-62 {
+    width: 130px;
+    left: 217px;
+    position: absolute;
+    top: 1121px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-63 {
+    position: absolute;
+    width: 130px;
+    top: 1031px;
+    left: 217px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a2a5a8;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pdf .text-wrapper-64 {
+    width: 286px;
+    top: 3px;
+    left: 13px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 600;
+    color: #003366;
+    font-size: 32px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 330px;
+}
+
+
+.pdf .vector,
+.pdf .img {
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+    margin-top: 10px;
+}
+
+.pdf .vector-wrapper {
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    top: 800px;
+    left: 0;
+    background-image: url(./img/vector-214.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.pdf .vector-2 {
+    top: 0;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .vector-3 {
+    top: 1012px;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .vector-4 {
+    top: 1336px;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .vector-5 {
+    top: 1414px;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .vector-6 {
+    top: 1604px;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .vector-7 {
+    top: 1104px;
+    position: absolute;
+    width: 938px;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.pdf .group {
+    position: fixed;
+    width: 25px;
+    height: 24px;
+    top: -4195px;
+    left: -10213px;
+}
+
+.text-wrapper-2 {
+    display: flex;
+    align-items: center;
+}
+
+.label-text {
+    margin-right: 0px;
+}
+
+.gradient-button {
+    background: linear-gradient(45deg, #2196f3, #21cbf3);
+    color: #ffffff;
+    border: 2px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 60px;
+    margin-left: 360px;
+    width: 170px;    
+    height: 45px;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #21cbf3, #2196f3);
+    transform: scale(1.05);
+}
+
+.gradient-button:active {
+    transform: scale(0.95);
+}
